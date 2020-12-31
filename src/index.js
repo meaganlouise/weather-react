@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import axios from "axios";
+import Loader from "react-loader-spinner";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,6 +11,20 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+export default function Spinner() {
+  return (
+    <div className="Spin">
+      <Loader
+        type="Puff"
+        color="#00BFFF"
+        height={100}
+        width={100}
+        timeout={3000}
+      />
+    </div>
+  );
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
