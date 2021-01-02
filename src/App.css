@@ -1,38 +1,142 @@
-.App {
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+h1 {
+  font-family: "Balsamiq Sans", cursive;
+  font-family: "Courier Prime", monospace;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 250px;
+  text-align: right;
+  top: 0%;
+  display: inline;
+  position: relative;
+  top: 60px;
+}
+
+h2 {
+  font-size: 55px;
+  font-family: "Pacifico", cursive;
+  display: inline;
+  line-height: 16px;
+  position: relative;
+  left: -10px;
+  top: -26px;
+
+  transition: 200ms ease-in-out;
+}
+
+h2:hover {
+  color: #fdffae;
+}
+
+h4 {
+  font-family: "Fredoka One", cursive;
+}
+h5 {
+  font-family: "Fredoka One", cursive;
+  position: relative;
+  top: -5px;
+}
+
+img {
+  width: 18px;
+}
+
+.date {
+  font-family: "Fredoka One", cursive;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.hellokittyRain {
+  width: 300px;
+  display: inline;
+  position: relative;
+  top: -40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
+
+.weatherTime {
+  font-size: 20px;
+  color: black;
+  line-height: 30px;
+  font-family: "Fredoka One", cursive;
+  margin: 0px 33px;
+}
+
+.btn-light {
+  font-family: "Pacifico", cursive;
+  background-color: #fed2f8;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 200ms ease-in-out;
+}
+
+.btn-light:hover {
+  color: #fed2f8;
+  background-color: black;
+  cursor: pointer;
+}
+
+.btn-success {
+  color: black;
+  font-family: "Pacifico", cursive;
+  background-color: #fed2f8;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 200ms ease-in-out;
+}
+
+.btn-success:hover {
+  color: #fed2f8;
+  background-color: black;
+  cursor: pointer;
+}
+.condition {
+  font-family: "Fredoka One", cursive;
+  text-align: left;
+  font-size: 22px;
+}
+
+button,
+input {
+  margin: 7px;
+}
+
+.condition:first-letter {
+  text-transform: capitalize;
+}
+
+.searchBar {
+  border-radius: 20px;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.units {
+  font-size: 25px;
+}
+
+footer {
   text-align: center;
-}
+  margin: 40px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
 }

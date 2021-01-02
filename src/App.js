@@ -7,14 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello</p>
-        <Loader
-          type="Hearts"
-          color="#00BFFF"
-          height={100}
-          width={100}
-          timeout={10000}
-        />
+
         <a
           className="App-link"
           href="https://reactjs.org"
