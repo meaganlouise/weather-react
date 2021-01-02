@@ -4,7 +4,12 @@ import "./App.css";
 export default function Weather() {
   return (
     <div className="container">
-      <img class="hellokittyRain" id="icon" src="src/images/01d.png" />
+      <img
+        class="hellokittyRain"
+        id="icon"
+        src="src/images/01d.png"
+        alt="hellokittymain"
+      />
       <h1>
         <span className="temperature">16</span>°
         <span className="units">
