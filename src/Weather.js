@@ -52,9 +52,15 @@ export default function Weather() {
                 Current
               </button>
             </form>
-            <a href={"https://github.com/meaganlouise/weather-react"}>
-              Coded By Meagan Louise
-            </a>
+            <footer>
+              <a
+                href="https://github.com/meaganlouise/weatherApp"
+                target="_blank"
+                class="footer"
+              >
+                Open-source code by Meagan Louise{" "}
+              </a>
+            </footer>
           </div>
         </div>
       </div>
