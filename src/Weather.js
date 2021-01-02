@@ -54,11 +54,11 @@ export default function Weather() {
             </form>
             <footer>
               <a
-                href="https://github.com/meaganlouise/weatherApp"
+                href="https://github.com/meaganlouise/weather-react"
                 target="_blank"
                 class="footer"
               >
-                Open-source code by Meagan Louise{" "}
+                Open-source code by Meagan Louise
               </a>
             </footer>
           </div>
