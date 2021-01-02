@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello</p>
         <Loader
-          type="Puff"
+          type="Hearts"
           color="#00BFFF"
           height={100}
           width={100}
