@@ -55,7 +55,7 @@ export default function Weather() {
             <footer>
               <a
                 href="https://github.com/meaganlouise/weather-react"
-                target="_blank"
+                rel="nofollow"
                 class="footer"
               >
                 Open-source code by Meagan Louise
