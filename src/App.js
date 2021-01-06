@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./Weather.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
