@@ -16,7 +16,7 @@ export default function Weather() {
               autoFocus="on"
             />
 
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input type="submit" value="Search" className="btn btn-light" />
           </form>
         </div>
         <div className="col-6">
@@ -30,7 +30,7 @@ export default function Weather() {
       </div>
       <div className="main-image">
         <img
-          src="https://lh3.googleusercontent.com/qZ3xt91OFgq__y55lKM7h5t5WdRlHCm2v5ZfUCw13ZeiDzkryiVctnm7X3829PdVjQBBZasZjqiCuGrpL0eoixI53LW3yRpTc6-Tbh932-axXNQ_6FOCx4KpSOO3QlZ--nmVKi7j3-Vml2wuU7QV0DEakx7uvph4-Is4fjpTQV4lIGn5uD4HWahINoO8s5WBLSKf17krhHC_YiKJiZFnhMbPnYGMSQpGy8WWuhA0cYZcouMeoKod3CA16bgWkXO6fqCt4ruSEm_ek2HBfv_NjlrYMxLofJH5zGIzss0hQ31vQeq2ihLskgAF31n1ozqtPXU-WkV1HsxHCavhL1QdVrPvnvSqjyQOvPY4zUPPKpiHUeqiZwolUsAmcd8UpFA2pK1WenwjVWJS2iWKcPorl_MTJ15wswklQf9MA0l-Q-4BizbDOsdpoXl5RNyPoKKtYbgOTczMK7XNEzzZcbvouOK1AqDqHwm0tomMB0DfxjYKw0lmfLBR1WDSRdNvqxO5gnxElnsw8PeA2-uE3He9cVrq6sIEpc282wJD9VvkSvwqq6dCFqXh3_-AX9_j4okzMfxjIDu_dbgsSRzsRl6uHXVYPkSbWGLQjpdi-saoF-bz0W33q1-ngLXu7gk8sM7TEeOkFyfNYiVs69pjkTqO_Kmkjndip9sDNVM9TF8fiRVZM02ZlhqeNHgCMrsD=w853-h488-no?authuser=0"
+          src="https://lh3.googleusercontent.com/M4ku99RiIhvhP9nHnPLCwd_5fy6wqHNcP2afBSQce9hxClBVJKaGVMTpJgeb1P4dXhMhPSqXod1KgvhfP8WJr4hHmLuiztT4Uq4gPIwQNeW508FgGSovAnx2CecUqxnQvfDdX6uo177GPVJmdz0kFmBmKjI2TygRIP-G9A3rMWV3pKMfbXlOIWN0B0WW4n9GkXCA3CAYG_n4UBhrzmRUqjg_SD8mdGEOs6COaZGOvZyW9GshVJyRj69sW_G7sMm_QRV1GZcoKDJu3gvgOvcRG4v9Tqu5-RSyUffezPXzsQcrW-To5ziYYrqxRUUNrGuMbEwHyKiUjYGJmgsRckKXXKBPZnnK850ljF47UPRblJ0k75bu8Fzp8GPiKQMU0JhvbdGqM8_8inRhkCJ3CeRFwjNWt4twE2v6mxQgcaj0Ns2ThKRv-apQX79dtLpNyMuet9F6wayz4zKYtJyFTOBXR33EMAffwHTB989WNMmmrHWJeNs8VlPY19CbsdAoCtSTzorp3ECYEnIUSerKdGSvs6-lrOqZDwN8eif5YF9cqWKafCAWi7Gp4CMX2t8RSBX7FCmJFgBAcSoXcWxL695Qx9rAI-zAa7zHjICkm_WOpplglfPTKmZGmGhz_WvEd_jm0q05PDzgFLoTwiWpHxbSmsQTT5NMTceOYIKuASy2t_7-kmgi-fsEVLFgIjX3=w373-h317-no?authuser=0"
           alt="Mostly Cloudy"
           className="MainIcon"
         />
@@ -47,16 +47,6 @@ export default function Weather() {
           <ul>Wind</ul>
         </li>
       </div>
-
-      <footer>
-        <a
-          href="https://github.com/meaganlouise/weather-react"
-          rel="nofollow"
-          className="footer"
-        >
-          Open-source code by Meagan Louise
-        </a>
-      </footer>
     </div>
   );
 }

@@ -8,6 +8,15 @@ function App() {
   return (
     <div className="App">
       <Weather />
+      <footer>
+        <a
+          href="https://github.com/meaganlouise/weather-react"
+          rel="nofollow"
+          className="footer"
+        >
+          Open-source code by Meagan Louise
+        </a>
+      </footer>
     </div>
   );
 }

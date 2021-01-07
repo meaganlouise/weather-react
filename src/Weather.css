@@ -2,26 +2,28 @@
   padding: 16px;
   margin: 30px auto;
   border: 1px solid #dadde1;
+  border-radius: 20px;
   max-width: 600px;
-  border-radius: 4px;
   color: rgb (135, 135, 135);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .date {
   font-family: "Pacifico", cursive;
   text-align: right;
-
   font-size: 45px;
   margin-top: -8px;
 }
 
 .WeatherDescription {
+  font-family: "Pacifico", cursive;
   margin-top: -17px;
   text-align: right;
 }
 
 .MainIcon {
-  padding: 80px 0px 35px 0px;
+  padding: 40px 0px 35px 0px;
   width: 300px;
   margin: 0 auto;
   display: block;
@@ -50,6 +52,16 @@
   text-align: center;
   margin-top: 10px;
   line-height: 0.5;
+}
+
+.btn-light {
+  font-family: "Pacifico", cursive;
+  background-color: #fed2f8;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 200ms ease-in-out;
 }
 
 li {
