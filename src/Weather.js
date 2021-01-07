@@ -38,12 +38,13 @@ export default function Weather() {
         <span className="degree">40°</span>
         <span className="celcius">c|f</span>
       </h2>
-
-      <li className="conditions-list">
-        <ul>Precipitation</ul>
-        <ul>Humidity</ul>
-        <ul>Wind</ul>
-      </li>
+      <div className="ConditionsList">
+        <li className="conditions">
+          <ul>Precipitation</ul>
+          <ul>Humidity</ul>
+          <ul>Wind</ul>
+        </li>
+      </div>
 
       <footer>
         <a
