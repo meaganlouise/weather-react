@@ -13,6 +13,7 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="search-city"
+              autoFocus="on"
             />
 
             <input type="submit" value="Search" className="btn btn-primary" />
