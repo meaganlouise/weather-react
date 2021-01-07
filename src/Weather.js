@@ -33,9 +33,12 @@ export default function Weather() {
           className="MainIcon"
         />
       </div>
-      <div className="temperature">
-        <h2>40°c|f</h2>
-      </div>
+
+      <h2>
+        <span className="degree">40°</span>
+        <span className="celcius">c|f</span>
+      </h2>
+
       <li className="conditions-list">
         <ul>Precipitation</ul>
         <ul>Humidity</ul>
