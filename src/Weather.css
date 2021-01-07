@@ -54,16 +54,6 @@
   line-height: 0.5;
 }
 
-.btn-light {
-  font-family: "Pacifico", cursive;
-  background-color: #fed2f8;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 40px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  transition: 200ms ease-in-out;
-}
-
 li {
   list-style: none;
 }
@@ -80,6 +70,23 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+.btn-light {
+  font-family: "Pacifico", cursive;
+  background-color: #fed2f8;
+  padding: 2px 10px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 200ms ease-in-out;
+}
+
+.search-city {
+  border-radius: 20px;
+  border: none;
+  font-family: "Gill Sans";
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 footer {

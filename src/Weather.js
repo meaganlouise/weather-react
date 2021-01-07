@@ -16,7 +16,7 @@ export default function Weather() {
               autoFocus="on"
             />
 
-            <input type="submit" value="Search" className="btn btn-light" />
+            <input type="submit" value="Search" className="btn-light" />
           </form>
         </div>
         <div className="col-6">
