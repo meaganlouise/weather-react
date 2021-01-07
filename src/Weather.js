@@ -21,7 +21,7 @@ export default function Weather() {
         </div>
         <div className="col-6">
           <li className="List">
-            <ul>Tuesday 14th 11:11</ul>
+            <ul className="date">Tuesday 11:11</ul>
             <ul>Cloudy</ul>
           </li>
         </div>
