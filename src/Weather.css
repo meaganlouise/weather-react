@@ -1,5 +1,9 @@
-html {
-  height: 100%;
+.Weather {
+  border: 1px solid #dadde1;
+}
+
+.MainIcon {
+  width: 100px;
 }
 
 h1 {
