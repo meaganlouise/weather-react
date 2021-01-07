@@ -36,12 +36,17 @@ export default function Weather() {
       <div className="temperature">
         <h2>40°c|f</h2>
       </div>
+      <li className="conditions-list">
+        <ul>Precipitation</ul>
+        <ul>Humidity</ul>
+        <ul>Wind</ul>
+      </li>
 
       <footer>
         <a
           href="https://github.com/meaganlouise/weather-react"
           rel="nofollow"
-          class="footer"
+          className="footer"
         >
           Open-source code by Meagan Louise
         </a>
