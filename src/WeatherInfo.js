@@ -9,6 +9,19 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-6">
           <h1 className="City">{props.data.city}</h1>
+          <div className="WeatherForm">
+            <form onSubmit={props.handleSubmit}>
+              <input
+                type="search"
+                placeholder="Enter a city..."
+                className="search-city"
+                autoFocus="on"
+                onChange={props.handleCityChange}
+              />
+
+              <input type="submit" value="Search" className="btn-light" />
+            </form>
+          </div>
         </div>
         <div className="col-6">
           <li className="List">
